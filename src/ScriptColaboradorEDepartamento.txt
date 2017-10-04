@@ -1,0 +1,22 @@
+create database Atividadedao;
+
+
+COLABORADOR
+
+CREATE TABLE `atividadedao`.`colaborador` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `CPF` VARCHAR(15) NULL,
+  `Nome` VARCHAR(45) NULL,
+  `Endereco` VARCHAR(150) NULL,
+  `Telefone` VARCHAR(15) NULL,
+  `Email` VARCHAR(45) NULL,
+  `quantidadeFilhos` INT NULL,
+  PRIMARY KEY (`id`));
+
+
+DEPARTAMENTO
+
+CREATE TABLE `atividadedao`.`departamento` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `Nome` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
